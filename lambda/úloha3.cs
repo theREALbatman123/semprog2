@@ -21,7 +21,7 @@ class Program
 			.Where(e => e.RokVydani > 2000)
 			.OrderBy(e => e.Autor.Length)
 			.Select(e => e.Nazev);
-		
+
 		foreach (var e in vicNezDvaTisice)
 		{
 			Console.WriteLine(e);
